@@ -1,0 +1,44 @@
+# Core diffusion + training
+torch==2.1.0
+torchvision==0.16.0
+diffusers>=0.27.0
+transformers>=4.38.0
+accelerate>=0.27.0
+datasets>=2.16.0
+huggingface_hub>=0.20.0
+safetensors>=0.4.0
+
+# Training utilities
+tensorboard
+wandb
+ftfy
+kornia==0.7.0
+einops
+omegaconf
+
+# Segmentation reward (SegMAN-B + mmsegmentation)
+openmim
+mmengine
+mmcv>=2.0.0rc4
+mmsegmentation>=1.0.0
+mmdet
+
+# Image / metric helpers
+opencv-python
+scikit-image
+imageio
+Pillow
+pandas
+scipy
+shapely
+monai
+pytorch-msssim
+pytorch-fid
+clean-fid
+torch-fidelity
+lpips
+torchmetrics
+
+# Optional CLIP scoring branches
+open-clip-torch
+git+https://github.com/RyanWangZf/MedCLIP.git
